@@ -204,6 +204,10 @@ body {
 
 /* WHY */
 
+.whylist {
+  margin-top: 70px;
+}
+
 .why {
   background: url(https://images.pexels.com/photos/7282845/pexels-photo-7282845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
     no-repeat;
@@ -214,7 +218,7 @@ body {
 
   box-sizing: border-box;
   box-shadow: inset -650px 0 100px 0 #fff;
-  margin-top: 70px;
+
   padding-left: 700px;
   padding-top: 5px;
 }
@@ -225,6 +229,37 @@ body {
 }
 
 .why p {
+  /* padding-left: 10px; */
+  font-family: "Itim", cursive;
+  font-size: 20px;
+  padding-right: 15px;
+}
+
+/* WHY2 */
+
+.why2 {
+  background: url(https://images.pexels.com/photos/5264054/pexels-photo-5264054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+    no-repeat;
+
+  background-size: 800px;
+  background-position: right;
+  height: 500px;
+  width: 100%;
+
+  box-sizing: border-box;
+  box-shadow: inset 650px 0 100px 0 #fff;
+
+  padding-right: 700px;
+  padding-left: 25px;
+  padding-top: 5px;
+}
+
+.why2 h1 {
+  font-size: 48px;
+  font-family: "Fredericka the Great", cursive;
+}
+
+.why2 p {
   /* padding-left: 10px; */
   font-family: "Itim", cursive;
   font-size: 20px;

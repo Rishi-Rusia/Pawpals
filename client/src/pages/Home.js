@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Navbar from "../components/Navbar";
 import Friends from "../components/Friends";
 import Why from "../components/Why";
+import Why2 from "../components/Why2";
 export default function Home() {
   return (
     <div>
@@ -12,7 +13,12 @@ export default function Home() {
       <div className="home-body"></div>
 
       <Friends></Friends>
-      <Why></Why>
+
+      <div className="whylist">
+        <Why></Why>
+        <Why2></Why2>
+        {/* <Why></Why> */}
+      </div>
     </div>
   );
 }
