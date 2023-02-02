@@ -265,3 +265,143 @@ body {
   font-size: 20px;
   padding-right: 15px;
 }
+
+/* SLIDESHOW */
+
+.slideshow {
+  margin: 30px;
+
+  /* -webkit-box-shadow: 8px 8px 8px 8px #999;
+  -moz-box-shadow: 8px 8px 8px 8px #999;
+  box-shadow: 8px 8px 8px 8px #999; */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.slide {
+  display: flex;
+  border: 5px solid rgb(250, 233, 176);
+  transition: ls;
+}
+
+.slide-inactive {
+  display: none;
+}
+
+.slide img {
+  flex: 6;
+  height: 350px;
+  width: 400px;
+  object-fit: cover;
+  border-right: 5px solid rgb(250, 233, 176);
+}
+
+.slide-content {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 10px;
+  font-family: "Itim", cursive;
+}
+
+.slide-title {
+  margin-top: 10px;
+  font-family: "Fredericka the Great", cursive;
+}
+
+.slide-content p button {
+  height: 30px;
+  background-color: rgb(250, 233, 176);
+  border: none;
+  /* font-family: "Roboto Mono", monospace; */
+  font-family: "Pacifico", cursive;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.slide-content p {
+  margin-top: 0px;
+}
+
+.slider-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.slider-buttons button {
+  background-color: rgb(250, 233, 176);
+  height: 50px;
+  width: 70px;
+  cursor: pointer;
+  border: 0.5px solid black;
+  border-radius: 20px;
+}
+
+.slideshow-container {
+  margin-top: 20px;
+}
+
+/* FOOTER */
+
+.footer {
+  margin-top: 50px;
+  width: 100%;
+
+  background-color: rgb(250, 233, 176);
+  height: 150px;
+}
+
+.footer-header {
+  font-family: "Fredericka the Great", cursive;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-body {
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+
+.footer-body h3 {
+  font-family: "Fredericka the Great", cursive;
+}
+
+.footer-body p {
+  font-family: "Itim", cursive;
+}
+
+.footer-info {
+  flex: 6;
+  margin-left: 50px;
+}
+
+.footer-contact {
+  flex: 6;
+  margin-left: 50px;
+}
+
+.footer-end {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  gap: 10px;
+  background-color: rgb(250, 233, 176);
+}
+
+.contactlist {
+  font-size: 24px;
+}
+
+.contactlist a {
+  margin-right: 30px;
+  color: black;
+}

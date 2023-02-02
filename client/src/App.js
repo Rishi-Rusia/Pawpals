@@ -1,12 +1,12 @@
 import "./App.css";
-// import Home from "./pages/Home";
-import Stories from "./components/Stories";
+import Home from "./pages/Home";
+// import Slideshow from "./components/Slideshow";
 
 function App() {
   return (
     <div className="App">
-      {/* <Home></Home> */}
-      <Stories></Stories>
+      <Home></Home>
+      {/* <Slideshow></Slideshow> */}
     </div>
   );
 }

@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 import Friends from "../components/Friends";
 import Why from "../components/Why";
 import Why2 from "../components/Why2";
+import Slideshow from "../components/Slideshow";
+import Footer from "../components/Footer";
 export default function Home() {
   return (
     <div>
@@ -19,6 +21,10 @@ export default function Home() {
         <Why2></Why2>
         {/* <Why></Why> */}
       </div>
+
+      <Slideshow></Slideshow>
+
+      <Footer></Footer>
     </div>
   );
 }
