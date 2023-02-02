@@ -30,16 +30,16 @@ export default function Footer() {
       <div className="footer-end">
         <div className="contactlist">
           <a href="https://www.instagram.com/rishirusia/">
-            <i class="fa-brands fa-instagram"></i>
+            <i className="fa-brands fa-instagram"></i>
           </a>
           <a href="https://www.linkedin.com/in/rishi-rusia-90a499230/">
-            <i class="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-linkedin"></i>
           </a>
           <a href="https://github.com/Rishi-Rusia">
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
           </a>
           <a href="https://twitter.com/Rishi_512">
-            <i class="fa-brands fa-twitter"></i>
+            <i className="fa-brands fa-twitter"></i>
           </a>
         </div>
         © 2018-2022 Pawpals Pet Services Private Limited. All Rights Reserved

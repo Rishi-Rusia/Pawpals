@@ -12,7 +12,7 @@ export default function Card(props) {
       <h3>{props.title}</h3>
       <p>
         {props.para}
-        <button>Know more</button>
+        <button>Contact</button>
       </p>
     </div>
   );

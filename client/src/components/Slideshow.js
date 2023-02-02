@@ -113,6 +113,7 @@ export default function Slideshow() {
               className={
                 index === activeSlide ? "slide" : "slide slide-inactive"
               }
+              key={index}
             >
               <img src={obj.img} alt="" />
 

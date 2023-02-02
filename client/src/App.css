@@ -70,6 +70,14 @@ body {
   /* color: rgb(204, 172, 164); */
 }
 
+.menu-cross {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+}
+
 /* HEADER */
 
 .header {
@@ -96,6 +104,8 @@ body {
   font-size: 60px;
   color: white;
   font-family: "Fredericka the Great", cursive;
+  text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+    -1px -1px 0 #000;
 }
 
 .header-hero hr {
@@ -212,14 +222,14 @@ body {
   background: url(https://images.pexels.com/photos/7282845/pexels-photo-7282845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
     no-repeat;
 
-  background-size: 800px;
+  background-size: 60%;
   height: 500px;
   width: 100%;
 
   box-sizing: border-box;
   box-shadow: inset -650px 0 100px 0 #fff;
 
-  padding-left: 700px;
+  padding-left: 55%;
   padding-top: 5px;
 }
 
@@ -233,6 +243,7 @@ body {
   font-family: "Itim", cursive;
   font-size: 20px;
   padding-right: 15px;
+  height: 400px;
 }
 
 /* WHY2 */
@@ -241,7 +252,7 @@ body {
   background: url(https://images.pexels.com/photos/5264054/pexels-photo-5264054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
     no-repeat;
 
-  background-size: 800px;
+  background-size: 60%;
   background-position: right;
   height: 500px;
   width: 100%;
@@ -249,9 +260,10 @@ body {
   box-sizing: border-box;
   box-shadow: inset 650px 0 100px 0 #fff;
 
-  padding-right: 700px;
+  padding-right: 55%;
   padding-left: 25px;
   padding-top: 5px;
+  text-size-adjust: auto;
 }
 
 .why2 h1 {
@@ -264,6 +276,7 @@ body {
   font-family: "Itim", cursive;
   font-size: 20px;
   padding-right: 15px;
+  height: 400px;
 }
 
 /* SLIDESHOW */
@@ -404,4 +417,734 @@ body {
 .contactlist a {
   margin-right: 30px;
   color: black;
+}
+
+/* ##################################################################################
+##################################################################################
+########################## MEDIA QUERIES #########################################
+##################################################################################
+################################################################################## */
+
+@media only screen and (max-width: 1200px) {
+  .whylist {
+    margin-top: 70px;
+  }
+
+  .why {
+    background: url(https://images.pexels.com/photos/7282845/pexels-photo-7282845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+      no-repeat;
+
+    background-size: 60%;
+    height: 500px;
+    width: 100%;
+
+    box-sizing: border-box;
+    box-shadow: inset -650px 0 100px 0 #fff;
+
+    padding-left: 50%;
+    padding-top: 5px;
+  }
+
+  .why h1 {
+    font-size: 40px;
+    font-family: "Fredericka the Great", cursive;
+  }
+
+  .why p {
+    /* padding-left: 10px; */
+    font-family: "Itim", cursive;
+    font-size: 16px;
+    padding-right: 15px;
+    height: 400px;
+  }
+
+  /* WHY2 */
+
+  .why2 {
+    background: url(https://images.pexels.com/photos/5264054/pexels-photo-5264054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+      no-repeat;
+
+    background-size: 60%;
+    background-position: right;
+    height: 500px;
+    width: 100%;
+
+    box-sizing: border-box;
+    box-shadow: inset 650px 0 100px 0 #fff;
+
+    padding-right: 50%;
+    padding-left: 25px;
+    padding-top: 5px;
+    text-size-adjust: auto;
+  }
+
+  .why2 h1 {
+    font-size: 40px;
+    font-family: "Fredericka the Great", cursive;
+    margin-top: 80px;
+  }
+
+  .why2 p {
+    /* padding-left: 10px; */
+    font-family: "Itim", cursive;
+    font-size: 16px;
+    padding-right: 15px;
+    height: 400px;
+  }
+
+  .header-hero p {
+    top: 0;
+    font-size: 20px;
+    margin: 0px;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Roboto", monospace;
+    line-height: 50px;
+  }
+
+  .header-hero {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .whylist {
+    margin-top: 70px;
+  }
+
+  .why {
+    background: url(https://images.pexels.com/photos/7282845/pexels-photo-7282845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+      no-repeat;
+
+    background-size: 60%;
+    height: 500px;
+    width: 100%;
+
+    box-sizing: border-box;
+    box-shadow: inset -650px 0 100px 0 #fff;
+
+    padding-left: 50%;
+    padding-top: 5px;
+  }
+
+  .why h1 {
+    font-size: 30px;
+    font-family: "Fredericka the Great", cursive;
+  }
+
+  .why p {
+    /* padding-left: 10px; */
+    font-family: "Itim", cursive;
+    font-size: 12px;
+    padding-right: 15px;
+    height: 400px;
+  }
+
+  /* WHY2 */
+
+  .why2 {
+    background: url(https://images.pexels.com/photos/5264054/pexels-photo-5264054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+      no-repeat;
+
+    background-size: 60%;
+    background-position: right;
+    height: 500px;
+    width: 100%;
+
+    box-sizing: border-box;
+    box-shadow: inset 650px 0 100px 0 #fff;
+
+    padding-right: 50%;
+    padding-left: 25px;
+    padding-top: 5px;
+    text-size-adjust: auto;
+  }
+
+  .why2 h1 {
+    font-size: 30px;
+    font-family: "Fredericka the Great", cursive;
+    margin-top: 80px;
+  }
+
+  .why2 p {
+    /* padding-left: 10px; */
+    font-family: "Itim", cursive;
+    font-size: 12px;
+    padding-right: 15px;
+    height: 400px;
+  }
+
+  .header-hero p {
+    top: 0;
+    font-size: 16px;
+    margin: 0px;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Roboto", monospace;
+    line-height: 50px;
+  }
+
+  .header-hero {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .whylist {
+    margin-top: 70px;
+  }
+
+  .why {
+    background: url(https://images.pexels.com/photos/7282845/pexels-photo-7282845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+      no-repeat;
+
+    background-size: 60%;
+    height: 500px;
+    width: 100%;
+
+    box-sizing: border-box;
+    box-shadow: inset -650px 0 100px 0 #fff;
+
+    padding-left: 50%;
+    padding-top: 5px;
+  }
+
+  .why h1 {
+    font-size: 30px;
+    font-family: "Fredericka the Great", cursive;
+  }
+
+  .why p {
+    /* padding-left: 10px; */
+    font-family: "Itim", cursive;
+    font-size: 12px;
+    padding-right: 15px;
+    height: 400px;
+  }
+
+  /* WHY2 */
+
+  .why2 {
+    background: url(https://images.pexels.com/photos/5264054/pexels-photo-5264054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+      no-repeat;
+
+    background-size: 60%;
+    background-position: right;
+    height: 500px;
+    width: 100%;
+
+    box-sizing: border-box;
+    box-shadow: inset 650px 0 100px 0 #fff;
+
+    padding-right: 50%;
+    padding-left: 25px;
+    padding-top: 5px;
+    text-size-adjust: auto;
+  }
+
+  .why2 h1 {
+    font-size: 30px;
+    font-family: "Fredericka the Great", cursive;
+    margin-top: 80px;
+  }
+
+  .why2 p {
+    /* padding-left: 10px; */
+    font-family: "Itim", cursive;
+    font-size: 12px;
+    padding-right: 15px;
+    height: 400px;
+  }
+
+  .header-hero p {
+    top: 0;
+    font-size: 12px;
+    margin: 0px;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Roboto", monospace;
+    line-height: 50px;
+  }
+
+  .header-hero {
+    font-size: 30px;
+  }
+
+  .header-background {
+    height: 100%;
+    width: 100%;
+
+    z-index: 0;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+
+  .friends-center {
+    display: flex;
+    justify-content: center;
+  }
+  .friends-cardlist {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .card {
+    height: 530px;
+    width: 300px;
+
+    margin-top: 50px;
+    border: 2px solid rgb(250, 233, 176);
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .slide {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(250, 233, 176);
+    transition: ls;
+  }
+
+  .slide-inactive {
+    display: none;
+  }
+
+  .slide img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .whylist {
+    margin-top: 70px;
+  }
+
+  .why {
+    background: url(https://images.pexels.com/photos/7282845/pexels-photo-7282845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+      no-repeat;
+
+    background-size: 100%;
+    height: 300px;
+    width: 100%;
+
+    box-sizing: border-box;
+    box-shadow: none;
+
+    padding-left: 0%;
+    padding-top: 5px;
+    color: white;
+  }
+
+  .why h1 {
+    font-size: 30px;
+    font-family: "Fredericka the Great", cursive;
+    margin-left: 20px;
+  }
+
+  .why p {
+    /* padding-left: 10px; */
+    font-family: "Itim", cursive;
+    font-size: 12px;
+    padding-right: 15px;
+    height: 400px;
+    margin-left: 20px;
+  }
+
+  /* WHY2 */
+
+  .why2 {
+    background: url(https://images.pexels.com/photos/5264054/pexels-photo-5264054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+      no-repeat;
+
+    background-size: 100%;
+    background-position: right;
+    height: 300px;
+    width: 100%;
+
+    box-sizing: none;
+    box-shadow: none;
+
+    padding-right: 0%;
+    padding-left: 25px;
+    padding-top: 5px;
+    text-size-adjust: auto;
+    color: white;
+  }
+
+  .why2 h1 {
+    font-size: 30px;
+    font-family: "Fredericka the Great", cursive;
+
+    margin-left: 20px;
+  }
+
+  .why2 p {
+    /* padding-left: 10px; */
+    font-family: "Itim", cursive;
+    font-size: 12px;
+    padding-right: 15px;
+    height: 400px;
+    margin-left: 20px;
+  }
+
+  .header-hero p {
+    top: 0;
+    font-size: 12px;
+    margin: 0px;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Roboto", monospace;
+    line-height: 50px;
+  }
+
+  .header-hero {
+    font-size: 30px;
+  }
+
+  .header-background {
+    height: 100%;
+    width: 100%;
+
+    z-index: 0;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .whylist {
+    margin-top: 70px;
+  }
+
+  .why {
+    background: url(https://images.pexels.com/photos/7282845/pexels-photo-7282845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+      no-repeat;
+
+    background-size: 100%;
+    height: 300px;
+    width: 100%;
+
+    box-sizing: border-box;
+    box-shadow: none;
+
+    padding-left: 0%;
+    padding-top: 5px;
+    color: white;
+  }
+
+  .why h1 {
+    font-size: 30px;
+    font-family: "Fredericka the Great", cursive;
+    margin-left: 20px;
+  }
+
+  .why p {
+    /* padding-left: 10px; */
+    font-family: "Itim", cursive;
+    font-size: 12px;
+    padding-right: 15px;
+    margin-left: 20px;
+  }
+
+  /* WHY2 */
+
+  .why2 {
+    background: url(https://images.pexels.com/photos/5264054/pexels-photo-5264054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+      no-repeat;
+
+    background-size: 100%;
+    background-position: right;
+    height: 300px;
+    width: 100%;
+
+    box-sizing: none;
+    box-shadow: none;
+
+    padding-right: 0%;
+    padding-left: 25px;
+    padding-top: 5px;
+    text-size-adjust: auto;
+    color: white;
+  }
+
+  .why2 h1 {
+    font-size: 30px;
+    font-family: "Fredericka the Great", cursive;
+
+    margin-left: 20px;
+  }
+
+  .why2 p {
+    /* padding-left: 10px; */
+    font-family: "Itim", cursive;
+    font-size: 12px;
+    padding-right: 15px;
+    margin-left: 20px;
+  }
+
+  .header-hero p {
+    top: 0;
+    font-size: 12px;
+    margin: 0px;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Roboto", monospace;
+    line-height: 50px;
+  }
+
+  .header-hero {
+    font-size: 30px;
+  }
+
+  .header-background {
+    height: 100%;
+    width: 100%;
+
+    z-index: 0;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .friends-h1 {
+    font-family: "Fredericka the Great", cursive;
+    /* margin-top: 10px; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+
+  .whylist {
+    margin-top: 70px;
+  }
+
+  .why {
+    background: url(https://images.pexels.com/photos/7282845/pexels-photo-7282845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+      no-repeat;
+
+    background-size: 100%;
+    height: 300px;
+    width: 100%;
+
+    box-sizing: border-box;
+    box-shadow: none;
+
+    padding-left: 0%;
+    padding-top: 5px;
+    color: white;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+      -1px -1px 0 #000;
+  }
+
+  .why h1 {
+    font-size: 30px;
+    font-family: "Fredericka the Great", cursive;
+    margin-left: 20px;
+  }
+
+  .why p {
+    /* padding-left: 10px; */
+    font-family: "Itim", cursive;
+    font-size: 12px;
+    padding-right: 15px;
+    height: 400px;
+    margin-left: 20px;
+  }
+
+  /* WHY2 */
+
+  .why2 {
+    background: url(https://images.pexels.com/photos/5264054/pexels-photo-5264054.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+      no-repeat;
+
+    background-size: 100%;
+    background-position: right;
+    height: 300px;
+    width: 100%;
+
+    box-sizing: none;
+    box-shadow: none;
+
+    padding-right: 0%;
+    padding-left: 25px;
+    padding-top: 5px;
+    text-size-adjust: auto;
+    color: white;
+    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+      -1px -1px 0 #000;
+  }
+
+  .why2 h1 {
+    font-size: 30px;
+    font-family: "Fredericka the Great", cursive;
+
+    margin-left: 20px;
+  }
+
+  .why2 p {
+    /* padding-left: 10px; */
+    font-family: "Itim", cursive;
+    font-size: 12px;
+    padding-right: 15px;
+    height: 400px;
+    margin-left: 20px;
+  }
+
+  .header-hero p {
+    top: 0;
+    font-size: 12px;
+    margin: 0px;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: "Roboto", monospace;
+    line-height: 50px;
+  }
+
+  .header-hero {
+    font-size: 30px;
+    /* display: flex; */
+    color: white;
+  }
+
+  .header-background {
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    overflow: hidden;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    /* visibility: hidden; */
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .why {
+    background-size: 100% 700px;
+    background-size: cover;
+  }
+
+  .why2 {
+    background-size: 100% 700px;
+    height: 400px;
+
+    background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+    height: 50px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    color: rgb(48, 48, 48);
+    display: flex;
+  }
+
+  .navbar-social {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    gap: 20px;
+  }
+
+  .navbar-logo {
+    flex: 4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    vertical-align: center;
+    font-size: 22px;
+    /* font-family: "Fredoka One", cursive; */
+    /* font-family: "Roboto", sans-serif; */
+    /* font-family: "Pacifico", cursive; */
+    font-family: "Fredericka the Great", cursive;
+    gap: 5px;
+    margin-left: 50px;
+    margin-left: 10px;
+  }
+
+  .navbar-menu {
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+
+    align-items: center;
+    width: 100%;
+    /* font-family: "Fredoka One", cursive; */
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    background-color: white;
+    z-index: 600;
+    opacity: 96%;
+  }
+
+  .navbar-menu-list {
+    padding: 0px;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 26px;
+
+    justify-content: center;
+  }
+
+  .navbar-menu-item {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    letter-spacing: 3px;
+  }
+
+  .navbar-menu-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    /* color: rgb(204, 172, 164); */
+  }
+
+  .menu-cross {
+    display: block;
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+  }
+
+  .menu-display {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    width: 40px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: gray;
+    cursor: pointer;
+  }
+
+  .hamburger:hover {
+    color: black;
+  }
 }

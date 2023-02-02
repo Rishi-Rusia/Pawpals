@@ -1,12 +1,12 @@
 import "./App.css";
-import Home from "./pages/Home";
-// import Slideshow from "./components/Slideshow";
+// import Home from "./pages/Home";
+import Adopt from "./pages/Adopt";
 
 function App() {
   return (
     <div className="App">
-      <Home></Home>
-      {/* <Slideshow></Slideshow> */}
+      {/* <Home></Home> */}
+      <Adopt></Adopt>
     </div>
   );
 }
