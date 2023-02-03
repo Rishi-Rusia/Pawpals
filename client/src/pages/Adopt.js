@@ -2,11 +2,17 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Card from "../components/Card";
+import Basic from "../components/Basic";
 
 export default function Adopt() {
   return (
     <div>
       <Navbar></Navbar>
+
+      <Basic
+        image="https://images.pexels.com/photos/87065/pexels-photo-87065.jpeg?auto=compress&cs=tinysrgb&w=600"
+        title="ADOPT"
+      ></Basic>
       <div className="friends-center">
         <div className="friends-cardlist">
           <Card

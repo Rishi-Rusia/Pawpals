@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Card(props) {
   return (
@@ -12,7 +13,10 @@ export default function Card(props) {
       <h3>{props.title}</h3>
       <p>
         {props.para}
-        <button>Contact</button>
+        <button>
+          {" "}
+          <Link to="/adopt">Contact</Link>{" "}
+        </button>
       </p>
     </div>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import faceDoggo from "../images/FaceDoggo.jpg";
+import { Link } from "react-router-dom";
 
 export default function Hello() {
   return (
@@ -12,7 +13,9 @@ export default function Hello() {
         <hr />
         <p>
           Bring home a loving new friend, <br /> Adopt your dog
-          <button>Now </button>
+          <button>
+            <Link to="/adopt">Now</Link>
+          </button>
         </p>
       </div>
     </div>
